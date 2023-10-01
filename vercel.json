@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "src/controller/app.ts",
+            "use": "@vercel/npde"
+        }
+    ],
+    "routes": [
+        {
+            "src": "(.*)",
+            "dest": "src/controller/app.ts"
+        }
+    ]
+}
