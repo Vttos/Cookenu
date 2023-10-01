@@ -1,0 +1,48 @@
+POST http://localhost:3003/user/signup
+Content-Type: application/json
+
+{
+    "email": "vito6@gmail.com",
+    "password": "123"
+}
+
+###
+POST http://localhost:3003/user/login
+Content-Type: application/json
+
+{
+    "email": "vito6@gmail.com",
+    "password": "123" 
+}
+ 
+###
+GET http://localhost:3003/user/2461275c-bc88-49cd-aa7d-a84bd6fed44e
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0NjEyNzVjLWJjODgtNDljZC1hYTdkLWE4NGJkNmZlZDQ0ZSIsImlhdCI6MTY1NjE5MDc0NiwiZXhwIjoxNjU2MTkyNTQ2fQ.2_BRRRVm8mtACYB2Y-A054s7Qf-CjfWzagZQCMS0PJQ
+
+###
+POST http://localhost:3003/recipe/post/2461275c-bc88-49cd-aa7d-a84bd6fed44e
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk0MTU4ZjNlLWFjNTMtNDBjZi04MzllLThmYjE0MmI3ZDcwOCIsImlhdCI6MTY5NTk0NTM1NywiZXhwIjoxNjk1OTQ3MTU3fQ.A8T-6jpxYtt2qGdIgkgdXVcee2TdR5ZV7HDAv1r_Pms
+
+{
+    "title": "Miojo4",
+    "description": "Coloca em uma panela com agua fervendo e espera 5 minutos."
+}
+
+### 
+GET https://projeto-cooken.herokuapp.com/recipe/user/2461275c-bc88-49cd-aa7d-a84bd6fed44e
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0NjEyNzVjLWJjODgtNDljZC1hYTdkLWE4NGJkNmZlZDQ0ZSIsImlhdCI6MTY1NjM3MDY0MiwiZXhwIjoxNjU2MzcyNDQyfQ.c3_xl2Vq7tWEwtFAOceEQqoWfu6rzpax3gi5QLrsCYo
+
+###
+GET http://localhost:3003/recipe/all/94158f3e-ac53-40cf-839e-8fb142b7d708
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk0MTU4ZjNlLWFjNTMtNDBjZi04MzllLThmYjE0MmI3ZDcwOCIsImlhdCI6MTY5NTk0ODAzOSwiZXhwIjoxNjk1OTQ5ODM5fQ.7r8sxtQZs9mPvhRh0k2IFnrmd6rZzDlODfnBFqiXMqM
+
+###
+POST http://localhost:3003/follow/2461275c-bc88-49cd-aa7d-a84bd6fed44e
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0NjEyNzVjLWJjODgtNDljZC1hYTdkLWE4NGJkNmZlZDQ0ZSIsImlhdCI6MTY1NjIwMjUxNCwiZXhwIjoxNjU2MjA0MzE0fQ.nIZmjWcPq_klyxr7jxXCiyPVQDkh-6bbDkKkMKLndSg
+
+{
+    "idSeguido": "be21b0e5-87a8-42f4-b7ce-6a9bfc1f6b74"
+}
+
