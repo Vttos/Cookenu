@@ -1,4 +1,7 @@
 # Cookenu
+A ideia é que os usuarios possam compartilha suas receitas.
+
+
 -Criar usuário 
 
 POST http://localhost:3003/user/signup
