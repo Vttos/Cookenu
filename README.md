@@ -1,6 +1,8 @@
 # Cookenu
 A ideia é que os usuarios possam compartilha suas receitas.
 
+link para a documentação do postman https://documenter.getpostman.com/view/18694794/2s9YJdVMZb
+------
 
 -Criar usuário 
 
