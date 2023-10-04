@@ -5,8 +5,8 @@ POST http://localhost:3003/user/signup
 
 Body
 {
-    "email": "vito10@gmail.com",
-    "password": "123"
+    "email": "...@gmail.com",
+    "password": "***"
 }
 
 -------
@@ -19,8 +19,8 @@ POST http://localhost:3003/user/login
 
 Body
 {
-    "email": "vito6@gmail.com",
-    "password": "123" 
+    "email": "...@gmail.com",
+    "password": "***" 
 }
 
 -------
